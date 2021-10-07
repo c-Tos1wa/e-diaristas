@@ -1,11 +1,16 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-
+import SafeEnvironment from 'ui/components/feedback/SafeEnvironment/SafeEnvironment'
+import Title from 'ui/components/data-display/title/Title'
 
 const Home: NextPage = () => {
   return (
-    <div></div>
+    <>
+      <SafeEnvironment />
+      <Title 
+        title={'Conheça os profissionais'}
+        subtitle={'Preencha seu endereço e veja todos os profissionais da sua localidade'}
+      />
+    </>
   )
 }
 
