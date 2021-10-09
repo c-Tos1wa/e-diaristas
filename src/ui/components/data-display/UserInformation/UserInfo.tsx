@@ -26,6 +26,7 @@ const UserInformation: React.FC<UserInformationProps> = ({
       <RatingStyled readOnly value={rating}></RatingStyled>
       <UserDescription>{description}</UserDescription>
     </UserContainer>
-
   )
 }
+
+export default UserInformation
