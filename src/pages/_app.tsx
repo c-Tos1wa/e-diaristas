@@ -4,6 +4,7 @@ import { ThemeProvider } from '@mui/material'
 import theme from 'ui/themes/theme'
 import Head from 'next/head'
 import Header from 'ui/components/surfaces/Header/Header'
+import Footer from 'ui/components/surfaces/Footer/Footer'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <ThemeProvider theme={theme}>
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </>
   )
