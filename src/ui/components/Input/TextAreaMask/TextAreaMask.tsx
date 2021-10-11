@@ -1,5 +1,5 @@
 import InputMask from 'react-input-mask';
-import TextArea from 'ui/components/input/Textarea/Textarea'
+import TextArea from 'ui/components/Input/TextArea/TextArea'
 import { OutlinedTextFieldProps } from '@mui/material';
 
 export interface TextAreaMaskProps extends OutlinedTextFieldProps {
@@ -18,4 +18,6 @@ const TextAreaMask: React.FC<TextAreaMaskProps> = ({
     </InputMask>
   )
 }
+
+export default TextAreaMask;
 

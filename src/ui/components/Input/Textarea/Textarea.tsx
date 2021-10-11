@@ -1,3 +1,3 @@
-import { TextAreaStyle } from './Textarea.style';
+import { TextAreaStyle } from './TextArea.style';
 
 export default TextAreaStyle;
